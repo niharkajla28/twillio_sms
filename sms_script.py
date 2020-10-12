@@ -6,7 +6,7 @@ client = Client(account_sid, auth_token)
 
 message = client.messages.create(
     from_='+12056914156',
-    body='I am learning how to send the messages through python',
+    body='I am learning how to send the messages through python!',
     to='+918050106439'
 )
 
